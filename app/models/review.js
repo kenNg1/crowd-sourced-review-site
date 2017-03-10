@@ -4,7 +4,9 @@ export default DS.Model.extend({
   author: DS.attr(),
   detail: DS.attr(),
   rating: DS.attr(),
-  thumbsUp: DS.attr(),
-  thumbsDown: DS.attr(),
-  festival: DS.belongsTo('festival', {asyn:true})
+  up: DS.attr(),
+  votedUp: DS.attr(),
+  down: DS.attr(),
+  votedDown: DS.attr(),
+  festival: DS.belongsTo('festival', {async:true})
 });

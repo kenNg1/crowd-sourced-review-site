@@ -9,7 +9,7 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('admin');
   this.route('discover');
-  this.route('festival', {path: '/festival/:festivals_id'});
+  this.route('festival', {path: '/festival/:festival_id'});
 });
 
 export default Router;
