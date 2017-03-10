@@ -1,0 +1,25 @@
+{
+  "festivals": [{
+    "name": "Glastonbury",
+    "info": "Glastonbury Festival is the largest greenfield music and performing arts festival in the world and a template for all the festivals that have come after it. The difference is that Glastonbury has all the best aspects of being at a festival in one astonishing bundle.",
+    "longitude": "-2.612767",
+    "latitude": "51.156224"
+  }, {
+    "name": "Coachella",
+    "info": "The Coachella Valley Music and Arts Festival (commonly referred to as Coachella or the Coachella Festival) is an annual music and arts festival held at the Empire Polo Club in Indio, California, located in the Inland Empire's Coachella Valley in the Colorado Desert. It was founded by Paul Tollett in 1999 and is organized by Goldenvoice, a subsidiary of AEG Live. The event features many genres of music, including rock, indie, hip hop, and electronic dance music, as well as art installations and sculptures.",
+    "longitude": "-116.238922",
+    "latitude": "33.682329"
+  }, {
+    "name": "Tomorrowland",
+    "info": "Tomorrowland is an electronic music festival held in Boom, Belgium. Tomorrowland was first held in 2005, and has since become one of the world's largest and most notable music festivals.[1] It now stretches over 2 weekends and usually gets sold-out in minutes.",
+    "longitude": "4.385581",
+    "latitude": "51.091435"
+  }],
+  "reviews": [{
+    "author": "",
+    "detail": "",
+    "rating": "",
+    "thumbsUp": 21,
+    "thumbsDown": 0
+  }]
+}
