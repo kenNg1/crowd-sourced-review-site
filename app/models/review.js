@@ -8,5 +8,5 @@ export default DS.Model.extend({
   votedUp: DS.attr(),
   down: DS.attr(),
   votedDown: DS.attr(),
-  festival: DS.belongsTo('festival', {async:true})
+  festival: DS.belongsTo('festival', {async:true}),
 });

@@ -4,6 +4,7 @@ export default Ember.Route.extend({
   model(params) {
     return this.store.findRecord('festival', params.festival_id);
   },
+
   actions: {
     saveReview(params) {
       var newReview = this.store.createRecord('review', params);

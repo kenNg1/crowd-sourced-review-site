@@ -1,7 +1,8 @@
 <h1>{{model.name}}</h1>
+<h3>Average Rating: {{model.averageScore}}</h3>
 
 <div class="info-tile">{{model.info}}</div>
 
-{{festival-detail}}
+{{festival-detail festival=model}}
 
 {{new-review festival=model saveReview="saveReview"}}
