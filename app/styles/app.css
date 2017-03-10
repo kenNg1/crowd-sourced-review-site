@@ -1,0 +1,14 @@
+#enter {
+  color: white;
+  text-shadow: -1px 0 green, 0 1px green, 1px 0 green, 0 -1px green;
+  margin: 150px auto;
+  width: 600px;
+  text-align: center;
+
+}
+
+.jumbotron{
+  background-image: url("/assets/images/Music Festival Party Buses.jpg");
+  height: 650px;
+  background-size: cover;
+}

@@ -6,5 +6,5 @@ export default DS.Model.extend({
   rating: DS.attr(),
   thumbsUp: DS.attr(),
   thumbsDown: DS.attr(),
-  festival: belongsTo('festival', {asyn:true})
+  festival: DS.belongsTo('festival', {asyn:true})
 });

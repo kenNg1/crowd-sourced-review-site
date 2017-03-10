@@ -1,0 +1,12 @@
+<h1> Festivals Review Site </h1>
+
+<h4> Test to show how to call variables in routes</h4>
+<span>{{abc}}{{abc2}}</span>
+
+<h4>Festivals - Listing the festivals by popularity this year</h4>
+<h5> Create a helper later to return substring of details </h5>
+<ol>
+{{#each model.festivals as |festival|}}
+{{festival-tile festival=festival}}
+{{/each}}
+</ol>
