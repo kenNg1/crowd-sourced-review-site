@@ -7,6 +7,8 @@
 <h5> Create a helper later to return substring of details </h5>
 <ol>
 {{#each model.festivals as |festival|}}
-{{festival-tile festival=festival}}{{festival-average-rating festival}}
+{{festival-tile festival=festival}}
 {{/each}}
 </ol>
+
+<div class="displayFaves">{{display-favourites}}</div>

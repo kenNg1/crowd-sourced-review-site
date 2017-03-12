@@ -1,1 +1,5 @@
-{{outlet}}
+{{#each model.festivals as |festival|}}
+<li><button {{action 'destroyFestival' festival}}>Delete</button> {{festival.name}}</li>
+{{/each}}
+
+{{new-festival festival=festival newFestival="newFestival"}}

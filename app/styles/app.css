@@ -24,3 +24,12 @@
   height: 650px;
   background-size: cover;
 }
+
+.displayFaves {
+  position:fixed;
+  top:50px;
+  width: 200px;
+  right:10px;
+  border:5px solid darkblue;
+  padding:5px;
+}

@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export function festivalAverageRating(params) {
   var averageRating = params[0].get('averageScore');
-  var star = '<i class="fa fa-star" style="font-size:30px;font-weight:bold;color:yellow" aria-hidden="true"></i>';
+  var star = '<i class="fa fa-star" style="display:inline;font-size:20px;font-weight:bold;color:rgb(255, 247, 66)" aria-hidden="true"></i>';
   if (averageRating >= 5) {
     return Ember.String.htmlSafe(star + star + star + star + star);
   } else if (averageRating >= 4) {

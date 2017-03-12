@@ -3,6 +3,10 @@
 
 <div class="info-tile">{{model.info}}</div>
 
+<button{{action 'addtoFaves' model}}>Add to Favourites</button>
+
+<div class="displayFaves">{{display-favourites}}</div>
+
 {{festival-detail festival=model}}
 
 {{new-review festival=model saveReview="saveReview"}}

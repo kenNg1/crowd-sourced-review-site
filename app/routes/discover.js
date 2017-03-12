@@ -1,6 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
+  listFavourites: Ember.inject.service(),
   model() {
     return Ember.RSVP.hash({
       festivals: this.store.findAll('festival'),
