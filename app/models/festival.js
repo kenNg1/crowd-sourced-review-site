@@ -5,8 +5,8 @@ export default DS.Model.extend({
   info: DS.attr(),
   capacity: DS.attr(),
   reviews: DS.hasMany('review',{async:true}),
-  longitude: DS.attr(),
-  latitude: DS.attr(),
+  longitude: DS.attr('number'),
+  latitude: DS.attr('number'),
   averageScore: Ember.computed('reviews.@each.rating', function() {
       return this.get('reviews').reduce(function(sum, review) {
         return sum += review.get('rating');
